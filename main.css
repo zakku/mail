@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.head1 {
+	height: 20px;
+	background: #ff5555;
+	padding: 5px 10px;
+}
+.head2 {
+	height: 5px;
+	background: #ff7777;
+}
+.logStatue {
+	text-align: right;
+	font-size: 18px;
+}
+.title {
+	padding: 20px;
+}
+.titleLogo {
+	font-size: 60px;
+}
+.titleDescription {
+	font: 20px;
+}
+.main {
+	padding-bottom: 50px;
+}
+.naviGuide div {
+	margin: 15px;
+	padding: 15px;
+	width: 180px;
+	border: 4px solid #eeeeee;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+}
+.naviGuide .naviUserRegister {
+	border-color: #ffdddd;
+	margin-bottom: 30px;
+}
+.navi {
+	float: left;
+/*	position: absolute;*/
+}
+.content {
+	padding-left: 20px;
+	float: left;
+	min-height: 400px;
+}
+.contentLoungeTitle,.contentHistoryTitle {
+	font-size: 30px;
+}
+.contentLoungeCreateRoom {
+	padding: 10px;
+	margin: 20px;
+	border: 2px solid #aaffaa;
+	position: absolute;
+	right: 0px;
+}
+.footer {
+	padding: 10px 0px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	clear: left;
+	background: #eeeeee;
+}
+
+/*---------ÉãÅ[ÉÄ--*/
+.contentLoungeRoomContainer {
+	margin-top: 70px;
+}
+.contentLoungeRoom {
+	border: 5px #ffeedd solid;
+	padding: 20px;
+	padding-right: 25px;
+}
+.contentLoungeRoomTitle {
+	font-size: 30px;
+}
+.contentLoungeRoomUpperEnter {
+	border: 2px black solid;
+	padding: 15px 10px;
+	margin: 10px 5px;
+	width: 70px;
+	text-align: center;
+	font-size: 30px;
+	float: left;
+}
+.contentLoungeRoomDescript {
+	clear: left;
+}
+.contentLoungeRoomUpperData {
+	padding-top: 7px;
+}
+.contentLoungeRoomUpperDataNavi {
+	position: absolute;
+	bottom: 0px;
+	font-size: 17px;
+	float: left;
+}
+.contentLoungeRoomUpperDataSpecific {
+	left: 85px;
+	position: absolute;
+	bottom: 0px;
+	font-size: 26px;
+}
+.contentLoungeRoomUpperDataLine {
+	left: 110px;
+	height: 30px;
+	position: relative;
+}
+.contentLoungeRoomDataPeriod {
+	clear: left;
+	height: 22px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.contentLoungeRoomDataPeriodNavi {
+	font-size: 17px;
+	float: left;
+	position: absolute;
+	bottom: 0px;
+}
+.contentLoungeRoomDataPeriodSpecific {
+	font-size: 26px;
+	position: absolute;
+	bottom: 0px;
+	left: 110px;
+}
+.contentLoungeRoomDescript {
+	font-size: 17px;
+	width: 240px;
+	color: #222222;
+	border-top: #ffcccc 1px solid;
+	padding-top: 10px;
+}
+
+/*---------ÉÅÅ[Éãóöó--*/
+.contentHistorySelectContainer {
+	position: absolute;
+	right: 0px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.contentHistorySelectListContent {
+	top: 37px;
+	left: 10px;
+	display: none;
+	position: absolute;
+	border-top: 2px #cccccc solid;
+
+	font-size: 17px;
+	clear: left;
+}
+
+.contentHistorySelectListContentItem {
+	font-size: 16px;
+	border: 2px #cccccc solid;
+	border-top: 0px;
+	padding: 3px;
+}
+.contentHistorySelectList {
+/*	position: relative;*/
+	float: left;
+	border: 2px #cccccc solid;
+	margin-right: 10px;
+}
+.contentHistorySelectedItem {
+	position: relative;
+}
+.contentHistorySelectedItemLeft {
+	float: left;
+	padding: 3px;
+	font-size: 16px;
+	display: inline;
+}
+.contentHistorySelectedItemRight {
+	float: left;
+	border-left: 2px #cccccc solid;
+	font-size: 16px;
+	background: #eeeeee;
+	padding: 3px;
+	padding-bottom: 3px;
+}
+.contentHistorySelectButton {
+	float: left;
+	background: #d6d6d6;
+	background:linear-gradient(#e0e0e0, #d6d6d6);
+	background:-webkit-gradient(
+			linear, left top, left bottom, from(#e0e0e0), to(d6d6d6));
+	background:-moz-linear-gradient(top, #e0e0e0, #d6d6d6);
+	filter: progid:DXImageTransform.Microsoft.
+			gradient(GradientType=0,startcolorstr=#e0e0e0, endcolorstr=#d6d6d6));
+	-ms-filter:"progid:DXImageTransform.Microsoft.
+			gradient(GradientType=0,startcolorstr=#e0e0e0, endcolorstr=#d6d6d6))";
+	zoom: 1;
+
+	padding: 5px 15px;
+	font-size: 16px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
